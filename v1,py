@@ -1,0 +1,24 @@
+import getpass, os
+
+
+Username = input("Enter a Username -> ")
+Password = getpass.getpass("Enter a Password -> ")
+
+
+if Username == "Miruru_Uno@Crack":
+
+   print("congratulation!!")
+
+else:
+
+    print("Password or Username is Invalid.")
+    os._exit(1)
+
+if Password == "NiceCrack.":
+
+   print("Your So, Pro!")
+
+else:
+
+   print("Password or Username is Invalid.")
+   os._exit(1)
